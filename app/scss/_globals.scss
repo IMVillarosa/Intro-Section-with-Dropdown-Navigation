@@ -1,0 +1,21 @@
+// Reset CSS
+html {
+    font-size: 15px;
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after { box-sizing: inherit; }
+  
+body {
+    background: #222;
+}
+
+body,
+h1,
+h2,
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
