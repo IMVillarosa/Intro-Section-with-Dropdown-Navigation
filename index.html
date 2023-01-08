@@ -12,35 +12,38 @@
 
     <!-- Header starts here -->
     <header>
-        <div class="container">
+        <div class="flex">
             <!-- Website Branding -->
-            <div class="logo">
-                <a href="#">
-                   <img src="#" alt="Logo">
+            <nav class="primary-navigation flex flex-jc-sb">
+                <a class="header__logo flex flex-ai-c" href="#">
+                    <img src="images/logo.svg" alt="Logo">
                 </a>
-            </div>
 
             <!-- Navigational Menu -->
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">About</a></li>                
-            </ul>
-            
-            <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
+                <ul class="flex">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <ul class="flex flex-jc-fe">
+                    <li><a href="#">Login</a></li>
+                    <li class="btn-rounded"><a href="#">Register</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <!-- Hero banner starts here -->
-    <section class="banner">
-        <div class="container">
-            <h1>Make remote work</h1>
+    <section class="banner flex flex-jc-c">
+        <div class="banner-left">
+            <h1>Make <br />remote work</h1>
             <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-            <button>Learn more</button>
+            <button class="btn">Learn more</button>
+        </div>
+
+        <div class="banner-right flex">
+            <img src="images/image-hero-desktop.png" alt="">
         </div>
     </section>
 
