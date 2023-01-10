@@ -48,14 +48,18 @@ nav {
 }
 
 .header__logo img {
-  height: 70%;
-  margin-right: 5em;
+  margin-inline: 2em;
+}
+
+.features-dropdown,
+.company-dropdown {
+  display: none;
 }
 
 
 // BANNER STYLING
 .banner {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -80,3 +84,13 @@ nav {
   width: 80%;
   }
 }
+
+.banner__title,
+.banner__companies {
+  padding: 2em;
+}
+
+.banner__companies img {
+  padding-inline: 1.5em;
+}
+

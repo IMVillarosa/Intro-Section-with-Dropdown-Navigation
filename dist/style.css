@@ -10,6 +10,10 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  border: 1px dashed black;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -28,12 +32,18 @@ body {
   background-color: hsl(0deg, 0%, 8%);
   color: hsl(0deg, 0%, 98%);
   font-weight: 700;
+  cursor: pointer;
 }
 
 .btn-rounded {
   padding: 0.55em;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(0deg, 0%, 8%);
 }
 
 .flex {
@@ -79,12 +89,16 @@ nav ul li a {
 }
 
 .header__logo img {
-  height: 70%;
-  margin-right: 5em;
+  margin-inline: 2em;
+}
+
+.features-dropdown,
+.company-dropdown {
+  display: none;
 }
 
 .banner {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -106,4 +120,13 @@ nav ul li a {
 
 .banner-right img {
   width: 80%;
+}
+
+.banner__title,
+.banner__companies {
+  padding: 2em;
+}
+
+.banner__companies img {
+  padding-inline: 1.5em;
 }/*# sourceMappingURL=style.css.map */
