@@ -46,6 +46,11 @@ body {
   color: hsl(0deg, 0%, 8%);
 }
 
+@media only screen and (max-width: 1125px) {
+  body {
+    background: black;
+  }
+}
 .flex {
   display: flex;
 }
@@ -98,12 +103,12 @@ nav ul li a {
 }
 
 .banner {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .banner-left {
-  margin: 4em;
+  margin: 4em 0 0 0;
 }
 .banner-left h1 {
   font-size: 5rem;
@@ -116,10 +121,12 @@ nav ul li a {
   width: 60%;
   color: hsl(0deg, 0%, 41%);
   margin-bottom: 2em;
+  line-height: 1.5em;
 }
 
 .banner-right img {
-  width: 80%;
+  width: 100%;
+  max-width: 750px;
 }
 
 .banner__title,

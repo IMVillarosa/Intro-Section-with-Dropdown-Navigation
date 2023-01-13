@@ -51,6 +51,7 @@ nav {
   margin-inline: 2em;
 }
 
+// Dropdown styling
 .features-dropdown,
 .company-dropdown {
   display: none;
@@ -59,12 +60,12 @@ nav {
 
 // BANNER STYLING
 .banner {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .banner-left {
-  margin: 4em;
+  margin: 4em 0 0 0;
   h1 {
     font-size: 5rem;
     margin: 0;
@@ -76,12 +77,15 @@ nav {
     width: 60%;
     color: hsl(0, 0%, 41%);
     margin-bottom: 2em;
+    line-height: 1.5em;
   }
 }
 
 .banner-right {
   img {
-  width: 80%;
+  width: 100%;
+  max-width: 750px;
+  // height: auto;
   }
 }
 
@@ -91,6 +95,6 @@ nav {
 }
 
 .banner__companies img {
-  padding-inline: 1.5em;
+  padding-inline: 1.5em;  
 }
 
